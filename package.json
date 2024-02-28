@@ -2,7 +2,7 @@
   "name": "task",
   "version": "1.0.0",
   "description": "api task",
-  "main": "translate.js",
+  "main": "translate.js", "type": "module",
   "scripts": {
     "start": "node translate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
