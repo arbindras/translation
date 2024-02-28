@@ -15,6 +15,8 @@ const translate = new Translate({
 
 app.use(bodyParser.json());
 
+app.get("/", (req, res) => res.send("Translation of English into French"));
+
 // Translation endpoint
 app.post("/translate", async (req, res) => {
   try {
