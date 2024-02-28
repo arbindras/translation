@@ -2,9 +2,9 @@
   "name": "task",
   "version": "1.0.0",
   "description": "api task",
-  "main": "translate.js", "type": "module",
+  "main": "index.js", "type": "module",
   "scripts": {
-    "start": "node translate.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "arbindra",
