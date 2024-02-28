@@ -4,6 +4,7 @@
   "description": "api task",
   "main": "translate.js",
   "scripts": {
+    "start": "node translate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "arbindra",
